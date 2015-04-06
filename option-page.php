@@ -141,7 +141,8 @@ function submenu_exit_popup() {
 							<td>
 							<input type="checkbox" name="exit-html" value="true" <?php pegus_checked('exit-html');?>>
 							<?php _e('Activate the HTML mode','pegus-exit-popup'); ?>
-							<button id="pegus-html-example"> Charger le Html d'example </button>
+						
+							<button id="pegus-html-example" class="pegus-button-example button-primary autowidth"> Charger le Html d'example </button>
 							<fieldset class="show_options_html" style="display:none;">
 								<textarea name="exit-html-content" class="pegus_textarea" placeholder="<?php _e('Insert here your custom HTML content','pegus-exit-popup'); ?>"><?= stripslashes(get_option('exit-html-content', ''));?></textarea>
 							</fieldset>
@@ -190,6 +191,12 @@ function submenu_exit_popup() {
 	margin-top: 10px;
 	width: 550px;
 	height: 440px;
+}
+
+.pegus-button-example{
+	display: block!important;
+	margin-top: 10px!important;
+	margin-bottom: 10px;
 }
 
 </style>	

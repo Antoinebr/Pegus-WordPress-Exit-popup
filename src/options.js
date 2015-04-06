@@ -51,7 +51,7 @@
 	
 	$("#pegus-html-example").on('click', function(e){
 		e.preventDefault();
-		$('.pegus_textarea').empty().append('"<h1> lol </h1>"');
+		$('.pegus_textarea').empty().text('<div class="pegus-html"> \n <img class="pegus" src="http://www.antoinebrossault.com/pegus/demo/pegus-animal.png">\n <img class="logo" src="http://www.antoinebrossault.com/pegus/demo/pegus-logo.png">\n </div>\n \n <a href="http://www.antoinebrossault.com/pegus/pegus-exit-popup-V01-beta.zip">\n <button class="bouton pegus-btn"> Télecharger </button>\n </a>\n \n <style>\n \n .pegus_popup{\n height:400px!important; \n width:600px!important;}\n\n .pegus-html{\n position:relative!important;}\n\n .pegus-html .pegus{\n position:absolute;\n top:22px;\n left:-16px;\n width:300px;\n height:auto;}\n \n .pegus-html .logo{\n position:absolute;\n top:95px;\n width:251px;\n right:10px;\n height:auto}\n \n .pegus-btn{\n position:absolute;\n bottom:39px;\n width:290px;\n right:16px;\n height:45px;\n line-height:45px;\n opacity:1;\n text-align:center;\n color:#FFF;\n background-color:#e5c070}\n \n .pegus_title{\n color:#FFF}</style>\n\n');
 	});
 	
 	
