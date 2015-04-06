@@ -53,9 +53,9 @@ class pegus{
 					echo ' </div>';
 				}
 				?>
-			  <?php // Social Fin ?>
+			  <?php // Fin Social ?>
 			  <?php if($this->customhtml){ echo $this->get_custom_html();}?>
-			<?php // Contenu de la popup Fin ?>	
+			<?php // Fin Contenu de la popup ?>	
 		</div>
 	</div>
 	
