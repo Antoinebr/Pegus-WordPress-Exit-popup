@@ -4,7 +4,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 // On créer une page d'option
 
-// COLOR PICKER //
+// Initialisation du Color Picker
 add_action( 'admin_enqueue_scripts', 'antoine_color_picker' );
 function antoine_color_picker( $hook ) {
  
