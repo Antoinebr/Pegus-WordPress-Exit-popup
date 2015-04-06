@@ -56,12 +56,8 @@ class pegus{
 
 			  <?php // Fin Social ?>
 			  <?php if($this->customhtml){ echo $this->get_custom_html();}?>
-			<?php // Fin Contenu de la popup ?>	
-
-			  <!-- SOCIAL -->
-			  <?php if($this->customhtml){ echo $this->get_custom_html();}?>
-			<!-- contenu -->	
-
+			  
+			  <?php // Fin Contenu de la popup ?>	
 		</div>
 	</div>
 	
