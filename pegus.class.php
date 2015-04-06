@@ -34,12 +34,12 @@ class pegus{
 	<div data-cookie="true" data-maxamount="<?php echo get_option('exit-maxamount', '1');?>" data-mintime="<?php echo get_option('exit-mintime', '5000');?>" id="pegus-exit" class="pegus_popup">
 		<div class="pegus_close" >X</div>
 		<div class="pegus_content">
-			<?php // Contenu de la popup ?>
+			<!-- Contenu de la popup -->
 			<div class="pegus_title"><?= $this->exitmessage; ?></div>
 				
 				<?php if($this->newsletter) {$this->get_newsletter();} ?>
 				
-				<?php // Social ?>
+				<!-- SOCIAL -->
 				<?php if ($this->social){
 				
 					echo '<div class="exit-share-buttons">';
@@ -53,9 +53,15 @@ class pegus{
 					echo ' </div>';
 				}
 				?>
+<<<<<<< HEAD
 			  <?php // Fin Social ?>
 			  <?php if($this->customhtml){ echo $this->get_custom_html();}?>
 			<?php // Fin Contenu de la popup ?>	
+=======
+			  <!-- SOCIAL -->
+			  <?php if($this->customhtml){ echo $this->get_custom_html();}?>
+			<!-- contenu -->	
+>>>>>>> parent of 2c0f5e0... Commentaires de code passés en php
 		</div>
 	</div>
 	
