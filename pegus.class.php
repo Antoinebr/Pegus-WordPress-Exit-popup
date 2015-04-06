@@ -53,15 +53,15 @@ class pegus{
 					echo ' </div>';
 				}
 				?>
-<<<<<<< HEAD
+
 			  <?php // Fin Social ?>
 			  <?php if($this->customhtml){ echo $this->get_custom_html();}?>
 			<?php // Fin Contenu de la popup ?>	
-=======
+
 			  <!-- SOCIAL -->
 			  <?php if($this->customhtml){ echo $this->get_custom_html();}?>
 			<!-- contenu -->	
->>>>>>> parent of 2c0f5e0... Commentaires de code passés en php
+
 		</div>
 	</div>
 	
