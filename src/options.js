@@ -42,7 +42,7 @@
 	    $('#pegus-html-example').toggle();
 	});
 	
-	// Si l'input Exit Social est coché on affiches les options
+	// Si l'input Exit HTML est coché on affiches les options
 	 if($("input[name='exit-html']").is(':checked')){
 		    $('.show_options_html').show();
 		    $('#pegus-html-example').show();
