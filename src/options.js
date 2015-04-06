@@ -51,7 +51,7 @@
 	
 	$("#pegus-html-example").on('click', function(e){
 		e.preventDefault();
-		$('.pegus_textarea').empty().append('lol');
+		$('.pegus_textarea').empty().append('"<h1> lol </h1>"');
 	});
 	
 	
