@@ -46,6 +46,14 @@
 	
 		    $('.show_options_html').show();
 	    }
+	    
+	// Charger le code HTML d'exemple
+	
+	$("#pegus-html-example").on('click', function(e){
+		e.preventDefault();
+		$('.pegus_textarea').empty().append('lol');
+	});
+	
 	
      
 })( jQuery );
