@@ -1,0 +1,80 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2015-04-06 11:48+0100\n"
+"PO-Revision-Date: 2015-04-06 12:00+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.5\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-KeywordsList: _e;_e()\n"
+"X-Poedit-SearchPath-0: option-page.php\n"
+
+#: option-page.php:61
+msgid "Options successfully saved"
+msgstr "Options sauvegardés"
+
+#: option-page.php:69
+msgid "Pegus Exit popup : Settings"
+msgstr "Pegus : Exit popup : Réglage"
+
+#: option-page.php:76
+msgid "Exit popup message"
+msgstr "Message de l'exit popup"
+
+#: option-page.php:79
+msgid "Type your message"
+msgstr "Tapez votre message"
+
+#: option-page.php:84
+msgid "Background Color"
+msgstr "Couleur de fond"
+
+#: option-page.php:92
+msgid "Max execution amount"
+msgstr "Nombre de déclenchements maximums"
+
+#: option-page.php:100
+msgid "Min time before execution"
+msgstr "Temps minimum avant déclenchement"
+
+#: option-page.php:103
+msgid "Set the time in Ms (5sec = 5000)"
+msgstr "En ms (5000 = 5 sec)"
+
+#: option-page.php:108
+msgid "Activate the newsletter Mode"
+msgstr "Activez le mode Newsletter"
+
+#: option-page.php:111
+msgid "Activate Mailchimp"
+msgstr "Activer MailChimp"
+
+#: option-page.php:122 option-page.php:125
+msgid "Activate the social sharing Mode"
+msgstr "Activer le mode de partage sociaux"
+
+#: option-page.php:135
+msgid "Activate the custom HTML mode"
+msgstr "Activer le mode HTML"
+
+#: option-page.php:137
+msgid "This mode allow you to display any HTML code"
+msgstr "Ce mode vous permet d'afficher n'importe quel code HTML"
+
+#: option-page.php:141
+msgid "Activate the HTML mode"
+msgstr "Activer le mode HTML"
+
+#: option-page.php:143
+msgid "Insert here your custom HTML content"
+msgstr "Insérez ici votre HTML"
+
+#: option-page.php:152
+msgid "Save"
+msgstr "Sauvegarder"
