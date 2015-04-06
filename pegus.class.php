@@ -1,6 +1,6 @@
 <?php
 if ( ! defined( 'ABSPATH' ) ) {
-	exit; // Exit if accessed directly
+	exit; // Exit if accessed directly Go to hell scripts kiddies
 }
 
 class pegus{
@@ -15,7 +15,7 @@ class pegus{
 	
 	public function __construct(){
 
-		$this->exitmessage = stripslashes (get_option('exit-message', 'Vous partez déja !?'));
+		$this->exitmessage = stripslashes (get_option('exit-message', 'You are leaving ?!'));
 		$this->get_newsletter_state();
 		$this->set_custom_html();
 		if($this->get_social_state()){
