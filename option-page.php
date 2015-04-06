@@ -142,7 +142,7 @@ function submenu_exit_popup() {
 							<input type="checkbox" name="exit-html" value="true" <?php pegus_checked('exit-html');?>>
 							<?php _e('Activate the HTML mode','pegus-exit-popup'); ?>
 						
-							<button id="pegus-html-example" class="pegus-button-example button-primary autowidth"> Charger le Html d'example </button>
+							<button id="pegus-html-example" class="pegus-button" style="display:none;"> Charger le HTML d'example </button>
 							<fieldset class="show_options_html" style="display:none;">
 								<textarea name="exit-html-content" class="pegus_textarea" placeholder="<?php _e('Insert here your custom HTML content','pegus-exit-popup'); ?>"><?= stripslashes(get_option('exit-html-content', ''));?></textarea>
 							</fieldset>
@@ -193,10 +193,30 @@ function submenu_exit_popup() {
 	height: 440px;
 }
 
-.pegus-button-example{
-	display: block!important;
-	margin-top: 10px!important;
-	margin-bottom: 10px;
+.pegus-button{
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background: #2ea2cc;
+  border-color: #0074a2;
+  -webkit-box-shadow: inset 0 1px 0 rgba(120,200,230,.5),0 1px 0 rgba(0,0,0,.15);
+  box-shadow: inset 0 1px 0 rgba(120,200,230,.5),0 1px 0 rgba(0,0,0,.15);
+  color: #fff;
+  text-decoration: none;
+  font-size: 13px;
+  line-height: 26px;
+  height: 28px;
+  padding: 0 10px 1px;
+  cursor: pointer;
+  border-width: 1px;
+  border-style: solid;
+  -webkit-appearance: none;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  white-space: nowrap;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 </style>	

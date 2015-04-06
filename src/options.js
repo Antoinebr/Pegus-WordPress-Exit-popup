@@ -39,12 +39,13 @@
 	
 	 $( "input[name='exit-html']" ).on('click', function(){
 	    $('.show_options_html').toggle();
+	    $('#pegus-html-example').toggle();
 	});
 	
 	// Si l'input Exit Social est coché on affiches les options
 	 if($("input[name='exit-html']").is(':checked')){
-	
 		    $('.show_options_html').show();
+		    $('#pegus-html-example').show();
 	    }
 	    
 	// Charger le code HTML d'exemple
