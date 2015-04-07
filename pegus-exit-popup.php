@@ -49,8 +49,5 @@ add_action( 'plugins_loaded', 'pegus_load_textdomain' );
 	  	
 	 	$exitpopup->get_exitmessage();
 
-		$exitpopup->set_exitpopup();
-		
-		var_dump($exitpopup);
-
+		$exitpopup->set_exitpopup();		
   }
